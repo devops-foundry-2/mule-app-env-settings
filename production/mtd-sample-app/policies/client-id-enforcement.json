@@ -1,0 +1,8 @@
+{
+  "policyTemplateId": "client-id-enforcement",
+  "configurationData": {
+    "credentialsOriginHasHttpBasicAuthenticationHeader": "customExpression",
+    "clientIdExpression": "#[attributes.queryParams['client_id']]",
+    "clientSecretExpression": "#[attributes.queryParams['client_secret']]"
+  }
+}
